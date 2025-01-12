@@ -1,0 +1,36 @@
+:root {
+  --font-poppins: 'Poppins', sans-serif;
+  --font-museo: 'MuseoModerno', cursive;
+  --font-dmsans: 'DM Sans', sans-serif;
+  --font-sourceCodePro: 'Source Code Pro'
+}
+
+
+// COLORS
+$color-primary: #1DB954;
+$color-primary-light: #7ed56f;
+$color-primary-dark: #0D5326;
+$color-white: #fff;
+$color-black: #000;
+$color-nugget-gold: #B9951D;
+$color-bleached-silk: #F3F3F3;
+$color-brilliant-white: #E5F1FF;
+$color-red-hot: #D9002F;
+$color-mint-condition: #DFFFF4;
+$color-delicate-mist: #E0ECE4;
+$color-mesa-beige: #F2ECD6;
+$color-sugar-milk: #FFF8F3;
+$color-rose: #F43F5E;
+$beluga: #F1F1F1;
+$moonlight-sonata: #51418C;
+
+// FONTS
+$poppins: var(--font-poppins);
+$museo: var(--font-museo);
+$damsans: var(--font-dmsans);
+$sourceCodePro: var(--font-sourceCodePro);
+
+
+//
+$code-editor-header-height: 60px;
+

@@ -1,0 +1,54 @@
+.code-practise {
+  background-color: $color-mesa-beige;
+  height: calc(100vh - (72px)) !important;
+
+  .code-editor-output {
+    font-family: $sourceCodePro;
+    font-size: 20px;
+    background-color: #1A1826;
+    height: 100%;
+    color: $color-white;
+    padding: 48px 0 0 48px;
+  }
+}
+
+.custom-resizer {
+  width: 10px;
+  position: relative;
+}
+
+.custom-resizer::after {
+  content: '';
+  position: absolute;
+  width: 8px;
+  height: 36px;
+  background-image: url("/images/code-editor-dots.png");
+  bottom: 50%;
+}
+
+.custom-resizer::after {
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.custom-resizer-left-middle {
+  position: relative;
+}
+
+.custom-resizer-left-middle::after {
+  content: '';
+  position: absolute;
+  width: 8px;
+  height: 36px;
+  background-image: url("/images/code-editor-dots.png");
+  bottom: 50%;
+
+}
+
+.custom-resizer-left-middle::after {
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) rotate(90deg) scale(0.6);
+
+}

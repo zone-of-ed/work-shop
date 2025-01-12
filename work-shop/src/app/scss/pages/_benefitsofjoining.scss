@@ -1,0 +1,62 @@
+.benefits-of-joining {
+  margin-top: 120px;
+
+  h2 {
+    font-size: 32px;
+    font-family: $damsans;
+    font-weight: 400;
+
+  }
+
+  .img-container {
+    background-color: $color-mint-condition;
+    height: 400px;
+    margin-top: 150px;
+
+    img {
+      margin-top: -150px;
+    }
+  }
+
+  .content-container {
+    background-color: $color-delicate-mist;
+    position: relative;
+    padding: 120px 0;
+    z-index: -1;
+
+    img {
+      position: absolute;
+
+      right: 0;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+
+    .content-items {
+
+      font-family: $damsans;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 64px;
+
+      .content-item {
+        max-width: 400px;
+
+        h4 {
+          font-size: 28px;
+          font-weight: 500;
+          margin-bottom: 6px;
+        }
+
+        p {
+          font-size: 16px;
+          font-weight: 300;
+
+        }
+      }
+
+    }
+  }
+
+}

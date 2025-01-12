@@ -1,0 +1,44 @@
+.footer {
+  background-color: $color-black;
+  color: $color-white;
+  padding-top: 32px;
+
+  .footer-container {
+    display: flex;
+    justify-content: space-evenly;
+
+    .footer-content {
+      p {
+        font-family: $damsans;
+        font-size: 20px;
+        font-weight: 700;
+        margin-bottom: 8px;
+
+      }
+
+      ul {
+        padding: 0;
+        list-style: none;
+
+        li {
+          font-family: $poppins;
+          font-size: 16px;
+          font-weight: 300;
+          margin-bottom: 4px;
+        }
+      }
+    }
+
+  }
+
+  .copy-right {
+    font-size: 18px;
+    background-color: $color-delicate-mist;
+    color: $color-black;
+    font-style: italic;
+    font-family: $damsans;
+    padding: 8px;
+    margin-top: 32px;
+    font-weight: 500;
+  }
+}
